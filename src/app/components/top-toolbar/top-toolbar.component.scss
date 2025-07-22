@@ -1,0 +1,16 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  background: none;
+
+  &__logo {
+    background-image: url("../../../assets/dibor-nagoa-hero.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 100px;
+  }
+}
