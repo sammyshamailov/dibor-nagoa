@@ -4,14 +4,15 @@ import { Component, AfterViewInit } from '@angular/core';
 import Lenis from 'lenis';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { TopToolbarComponent } from "./components/top-toolbar/top-toolbar.component";
+import { TopToolbarComponent } from './components/top-toolbar/top-toolbar.component';
+import { HeroComponent } from './components/hero/hero.component';
 
 gsap.registerPlugin(ScrollTrigger);
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterModule, TopToolbarComponent],
+  imports: [CommonModule, RouterModule, TopToolbarComponent, HeroComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
